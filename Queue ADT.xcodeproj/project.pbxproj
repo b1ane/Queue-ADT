@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		A6A4A92828E0E4C1001C3DC7 /* Queue ADT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Queue ADT"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A4A92B28E0E4C1001C3DC7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A6A4A93228E0E6A4001C3DC7 /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				A6A4A92B28E0E4C1001C3DC7 /* main.cpp */,
+				A6A4A93228E0E6A4001C3DC7 /* queue.h */,
 			);
 			path = "Queue ADT";
 			sourceTree = "<group>";

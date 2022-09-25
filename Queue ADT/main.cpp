@@ -6,9 +6,26 @@
 //
 
 #include <iostream>
+#include <string>
+#include <sstream>
+#include "queue.h"
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    string input;
+    getline(cin, input);
+    
+    int num;
+    stringstream ss(input);
+    
+    queue q;
+    while(ss>>num) {
+        q.enqueue(num);
+    }
+    
+    
+    q.print();
+    cout << endl;
+    
     return 0;
 }
