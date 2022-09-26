@@ -26,6 +26,6 @@ int main() {
     
     q.print();
     cout << endl;
-    
+
     return 0;
 }

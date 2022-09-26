@@ -62,7 +62,7 @@ public:
         delete temp;
     }
     
-    char peek() {
+    int peek() {
         return front->data;
     }
     
