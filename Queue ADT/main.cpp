@@ -23,9 +23,7 @@ int main() {
         q.enqueue(num);
     }
     
-    
-    q.print();
-    cout << endl;
+    cout << q.eval() << endl;
 
     return 0;
 }
