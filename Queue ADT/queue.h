@@ -99,7 +99,7 @@ public:
             //remove person from line
             dequeue();
             //change to be given back to person
-            change = money - 5;
+            change = cu->data - 5;
             //saves value of 5 (when 10)
             
             
@@ -119,6 +119,10 @@ public:
             
             //calculate change to be given
             //if change to be given is more than 20 AND john has a 20
+            while(change>= 50 && fift > 0) {
+                change = change - 50;
+                fift = fift - 1;
+            }
             while (change >= 20 && twent > 0) {
                 change = change - 20;
                 twent = twent - 1;
@@ -152,6 +156,7 @@ public:
                 break;
             }
             cu = cu->next;
+            cout << endl;
         }
         
         return retVal;
