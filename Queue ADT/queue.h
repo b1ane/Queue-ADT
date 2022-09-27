@@ -156,7 +156,6 @@ public:
                 break;
             }
             cu = cu->next;
-            cout << endl;
         }
         
         return retVal;
